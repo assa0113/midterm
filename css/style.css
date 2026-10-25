@@ -7,11 +7,11 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333333;
-    background-color: #f5f5f5;
+    color: #49382B;
+    background-color: #E8D8BC;
 }
 
 .site-header {
@@ -32,15 +32,16 @@ body {
     left: 50%;
     width: 100%;
     margin: 0;
-    color: white;
+    color: #FFFFFF;
     font-size: 48px;
     font-weight: normal;
     text-align: center;
+    text-shadow: 2px 2px 5px #49382B;
     transform: translate(-50%, -50%);
 }
 
 .main-nav {
-    background-color: #ffffff;
+    background-color: #656644;
 }
 
 .main-nav ul {
@@ -57,27 +58,28 @@ body {
 }
 
 .main-nav li:not(:last-child) {
-    border-right: 1px solid #333333;
+    border-right: 1px solid #F8F3E9;
 }
 
 .main-nav a {
-    color: #333333;
+    color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
 }
 
 .main-nav a:hover {
-    color: #548b85;
+    color: #E8D8BC;
 }
 
 main {
-    padding: 20px;
-    background-color: #ffffff;
+    padding: 25px;
+    background-color: #F8F3E9;
 }
 
 h2 {
     margin-top: 0;
+    color: #49382B;
     font-size: 28px;
     font-weight: normal;
 }
@@ -103,13 +105,17 @@ h2 {
 }
 
 .facts li {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+}
+
+.facts li::marker {
+    color: #656644;
 }
 
 .contact {
     margin-top: 30px;
     padding: 20px;
-    border: 1px solid #333333;
+    border: 1px solid #656644;
 }
 
 .contact h2 {
@@ -130,8 +136,8 @@ h2 {
     display: block;
     width: 100%;
     padding: 10px;
-    border: 1px solid #777777;
-    border-radius: 0;
+    border: 1px solid #B7A78E;
+    background-color: #FFFFFF;
     font-family: inherit;
     font-size: 16px;
 }
@@ -143,7 +149,7 @@ h2 {
 .visit-options {
     margin: 20px 0;
     padding: 15px;
-    border: 1px solid #777777;
+    border: 1px solid #B7A78E;
 }
 
 .visit-options legend {
@@ -151,6 +157,7 @@ h2 {
 }
 
 .visit-options input {
+    accent-color: #656644;
     margin-left: 0;
     margin-right: 5px;
 }
@@ -161,20 +168,22 @@ h2 {
 
 button {
     padding: 10px 20px;
-    border: 1px solid #333333;
-    background-color: #aad4cf;
-    color: #333333;
+    border: 1px solid #656644;
+    background-color: #656644;
+    color: #FFFFFF;
+    font-family: inherit;
     font-size: 16px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #8bbdb7;
+    background-color: #49382B;
 }
 
 footer {
     padding: 15px 20px;
-    background-color: #ffffff;
+    background-color: #D4BE9D;
+    color: #49382B;
     text-align: right;
 }
 
@@ -195,6 +204,10 @@ footer p {
         font-size: 14px;
     }
 
+    main {
+        padding: 15px;
+    }
+
     .article-image {
         float: none;
         display: block;
@@ -207,4 +220,3 @@ footer p {
         margin-right: 8px;
     }
 }
-
